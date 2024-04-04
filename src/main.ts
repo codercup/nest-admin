@@ -4,7 +4,7 @@ import { ConfigService } from '@nestjs/config'
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule)
-  app.setGlobalPrefix('/api')
+  app.setGlobalPrefix('/api',{exclude:['']})
   const configService = app.get(ConfigService)
   const port = configService.get<number>('http.port')
   // 这里port改为6000却会有问题，好奇怪
