@@ -6,6 +6,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config'
 import { UsersModule } from './users/users.module'
 import { AuthModule } from './auth/auth.module'
 import { TypeOrmModule } from '@nestjs/typeorm'
+import { UploadModule } from './upload/upload.module';
 
 @Global()
 @Module({
@@ -44,6 +45,7 @@ import { TypeOrmModule } from '@nestjs/typeorm'
     }),
     UsersModule,
     AuthModule,
+    UploadModule
   ],
   controllers: [AppController],
   providers: [

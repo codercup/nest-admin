@@ -398,3 +398,6 @@ Temporary Items
 dist
 .webpack
 .serverless/**/*.zip
+
+# 下面是 菲鸽 加的
+uploads/*
