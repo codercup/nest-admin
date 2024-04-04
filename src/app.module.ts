@@ -26,10 +26,10 @@ import { TypeOrmModule } from '@nestjs/typeorm'
           host: 'localhost',
           port: 3306,
           username: 'root',
-          password: 'root',
-          database: 'nest-study',
+          password: '123456',
+          database: 'nest_study',
         })
-        console.log('mysqlConfig:', mysqlConfig)
+        console.log('mysqlConfig:', mysqlConfig) // 居然获取的是这里的默认值，不是配置的值，TODO: fix me
         return {
           ...mysqlConfig,
           type: 'mysql',

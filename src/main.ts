@@ -7,6 +7,8 @@ async function bootstrap() {
   app.setGlobalPrefix('/api')
   const configService = app.get(ConfigService)
   const port = configService.get<number>('http.port')
+  // 这里port改为6000却会有问题，好奇怪
   await app.listen(port)
+  console.log(`Application is running on: http://localhost:${port}`)
 }
 bootstrap()
