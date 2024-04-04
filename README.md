@@ -3,12 +3,12 @@
 </p>
 
 <h1 align="center">
-  <a href="https://github.com/codercup/nest10-starter" target="_blank">nest-best - 最新最好的 nestjs 解决方案</a>
+  <a href="https://github.com/codercup/nest10-starter" target="_blank">nest10 starter</a>
 </h1>
 
 ## Description
 
-nest-best TODO write me
+nest10-starter：nestjs10.x+mysql+jwt+swagger+redis+typeorm
 
 ## Installation
 
@@ -23,10 +23,9 @@ $ pnpm i
 $ pnpm start
 
 # watch mode
-$ pnpm start:dev 
-$ pnpm dev 
+$ pnpm start:dev
+$ pnpm dev
 
 # production mode
 $ pnpm start:prod
 ```
-
