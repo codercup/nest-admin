@@ -9,6 +9,7 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
     super()
   }
 
+  // 这里，当项目使用 pnpm 安装时，会报错，使用 npm 安装不会
   canActivate(context: ExecutionContext) {
     const isPublic = this.reflector.getAllAndOverride<boolean>(IS_PUBLIC_KEY, [
       context.getHandler(),
