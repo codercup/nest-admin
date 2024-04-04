@@ -1,9 +1,22 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "nest10-starter",
   "private": true,
   "version": "1.0.0",
   "description": "Nest TypeScript starter repository",
   "license": "MIT",
+  "author": {
+    "name": "codercup",
+    "zhName": "菲鸽",
+    "email": "1020103647@qq.com",
+    "github": "https://github.com/codercup",
+    "gitee": "https://gitee.com/codercup"
+  },
+  "repository": "https://github.com/codercup/nest10-starter",
+  "packageManager": "pnpm@8.15.1",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=7.30"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
