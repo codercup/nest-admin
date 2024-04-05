@@ -10,7 +10,7 @@ async function bootstrap() {
   app.useStaticAssets('uploads', {
     // http://localhost:3000/uploads/file-1712218189297-853241156-pretty-girl.png
     // 如果不带上prefix （或者直接注释掉），则访问路径为 http://localhost:3000/file-1712218189297-853241156-pretty-girl.png
-    prefix:'/uploads'
+    prefix: '/uploads',
   })
   const configService = app.get(ConfigService)
   const port = configService.get<number>('http.port')
