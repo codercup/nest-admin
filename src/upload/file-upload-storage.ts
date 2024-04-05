@@ -11,9 +11,11 @@ const storage = multer.diskStorage({
     cb(null, path.join(process.cwd(), 'uploads'))
   },
   filename: function (req, file, cb) {
-    const uniqueSuffix =
-      Date.now() + '-' + Math.round(Math.random() * 1e9) + '-' + file.originalname
-    cb(null, uniqueSuffix)
+    const [filename, ext] = file.originalname.split('.')
+    // 类似：pretty-girl_709264038_1712302297375.png；可以按需调整格式
+    const resultFilename =
+      filename + '_' + Math.round(Math.random() * 1e9) + '_' + Date.now() + '.' + ext
+    cb(null, resultFilename)
   },
 })
 
