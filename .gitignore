@@ -401,3 +401,4 @@ dist
 
 # 下面是 菲鸽 加的
 uploads/*
+pnpm-lock.yaml
