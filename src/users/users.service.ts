@@ -29,7 +29,7 @@ export class UsersService implements OnModuleInit {
   }
   onModuleInit() {
     const dbOptions = this.configService.get('db')
-    console.log('1212', dbOptions)
+    console.log(dbOptions)
   }
 
   create(createUserDto: CreateUserDto) {

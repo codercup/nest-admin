@@ -19,10 +19,10 @@ Nestjs + MySQL + Prisma + jwt + swagger + Docker
 启动 `Docker` ，运行 `MySQL`，文档在[mysql.md](./config/mysql.md)
 
 `MySQL` 运行成功如下：
-![alt text](./screenshots/image-1.png)
+![alt text](./screenshots/docker-run-mysql.png)
 
 整个服务运行成功如下：
-![alt text](./screenshots/image.png)
+![alt text](./screenshots/server-run.png)
 
 ## Installation
 
