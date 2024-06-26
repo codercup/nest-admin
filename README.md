@@ -48,6 +48,8 @@ $ pnpm start:prod
 
 服务运行端口：`5555`
 
+> swagger 文档地址：`http://localhost:5555/api-docs`
+
 ## 配套的前端项目
 
 [nest-admin-web](https://github.com/codercup/nest-admin-web)
