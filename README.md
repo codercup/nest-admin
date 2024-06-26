@@ -45,3 +45,13 @@ $ pnpm dev
 # production mode
 $ pnpm start:prod
 ```
+
+服务运行端口：`5555`
+
+## 配套的前端项目
+
+[nest-admin-web](https://github.com/codercup/nest-admin-web)
+
+服务运行端口：`6666`
+
+> 还在开发中，敬请期待。
