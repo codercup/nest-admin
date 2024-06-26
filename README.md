@@ -3,14 +3,30 @@
 </p>
 
 <h1 align="center">
-  <a href="https://github.com/codercup/nest10-starter" target="_blank">nest10 starter</a>
+  <a href="https://github.com/codercup/nest-admin" target="_blank">nest admin</a>
 </h1>
 
 ## Description
 
-nest10-starter：nestjs10.x+mysql+jwt+swagger+redis+typeorm
+> Nestjs 版本 v10
+> 项目曾用名：`nest-starter`
+
+Nestjs + MySQL + Prisma + jwt + swagger + Docker
+
+
+## 提前准备
+
+启动 `Docker` ，运行 `MySQL`，文档在[mysql.md](./config/mysql.md)
+
+`MySQL` 运行成功如下：
+![alt text](./screenshots/image-1.png)
+
+整个服务运行成功如下：
+![alt text](./screenshots/image.png)
 
 ## Installation
+
+> 推荐使用 `pnpm` 作为包管理工具, 版本 `>=7.30`。
 
 ```bash
 $ pnpm i
