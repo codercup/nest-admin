@@ -19,10 +19,10 @@ Nestjs + MySQL + Prisma + jwt + swagger + Docker
 启动 `Docker` ，运行 `MySQL`，文档在[mysql.md](./config/mysql.md)
 
 `MySQL` 运行成功如下：
+
 ![alt text](./screenshots/docker-run-mysql.png)
 
-整个服务运行成功如下：
-![alt text](./screenshots/server-run.png)
+
 
 ## Installation
 
@@ -47,6 +47,8 @@ $ pnpm start:prod
 ```
 
 服务运行端口：`5555` ，本地服务：`http://localhost:5555`
+
+![alt text](./screenshots/server-run.png)
 
 > swagger 文档地址：`http://localhost:5555/api-docs`
 
