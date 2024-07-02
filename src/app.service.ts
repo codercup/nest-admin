@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common'
 import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
+const prisma = new PrismaClient({
+  log: ['query', 'info'],
+})
 @Injectable()
 export class AppService {
   getHello(): string {
