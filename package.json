@@ -18,6 +18,7 @@
     "pnpm": ">=7.30"
   },
   "scripts": {
+    "seed": "npx ts-node prisma/seed.ts",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
